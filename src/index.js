@@ -11,7 +11,6 @@ export default {
         accept: "image/jpeg,image/*",
         "user-agent": "motivation-wallpaper-proxy/1.0",
       },
-      cf: { cacheTtl: 0, cacheEverything: false },
     });
 
     const headers = new Headers(upstream.headers);
